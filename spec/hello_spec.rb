@@ -1,7 +1,11 @@
 require 'rspec'
 
-describe 'My behaviour' do
+require_relative '../lib/hello.rb'
+
+
+describe Hello do
   it 'should do something' do
-    expect('hello').to eq('hello')
+    expect(Hello.say).to eq('world')
   end
 end
+
