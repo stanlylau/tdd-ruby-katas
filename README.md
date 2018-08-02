@@ -11,12 +11,12 @@ Write a method that accepts a number and outputs a string. A number with:
 
 ## String Template
 ```
-Input: "Hello {first_name}" when first_name = 'Li'
-Output: "Hello Li"
-```
-```
-Input: "Hello {first_name} {last_name}" when first_name = 'Li', last_name = 'Ren'
+Input: "Hello {first_name}" when first_name = 'Li Ren'
 Output: "Hello Li Ren"
+```
+```
+Input: "Hello {first_name} {last_name}" when first_name = 'Stanly', last_name = 'Lau'
+Output: "Hello Stanly Lau"
 ```
 If an attribute in the template is not provided with a value, do not need to replace.
 
