@@ -1,6 +1,12 @@
 # Code Katas
 Used for practicing Test Driven Development
 
+### How to run the skeleton tests
+```bash
+bundle install
+rspec
+```
+
 ## FizzBuzz
 Write a method that accepts a number and outputs a string. A number with:
 
